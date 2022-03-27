@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2? family= Nunito:wght@300;400;700 & display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Catamaran', sans-serif;
+
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Barra de navegação e h1 */
+
+.barra-navegacao{
+    background-color:#233673;
+    margin-left:auto;
+    margin-right: auto;
+    height: 90px;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 375px;
+    margin-top: 13px
+}
+
+.barra-navegacao-links{
+    float: right;
+    margin-right: 375px;
+    margin-top: 30px;
+}
+
+.barra-navegacao-links > a{
+    color: #ffffff;
+    text-decoration: none;
+
+    padding: 0px 35px 0px 0px;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.gradiente{
+    position:absolute;
+    background-image: linear-gradient( to right, #09629D 20%, transparent);
+    height:711px;
+}
+
+.EXP{
+    margin: 0px;
+    height: 710px;
+    background-image: url(assets/background-main.jpg);
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.texto-exp{
+    margin-left: 375px;
+    margin-top: 180px;
+
+    color: #FFFFFF;
+}
+
+.texto-exp h1{
+    font-size: 48px;
+
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.texto-exp b{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 120%;
+
+    color: #FFA000;
+}
+
+.texto-exp p{
+    font-size: 20px;
+}
+
+.texto-exp a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.CONHECA{
+    padding: 13.5px;
+
+    background: #FC8A33;
+    border-radius: 5px;
+    margin-right: 22px;
+}
+
+.PISCINAS{
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 13.5px 40px;
+}
+
+/* section PISCI */
+
+.text-pisci{
+    margin-left: 380px;
+    margin-top: 152px;
+}
+
+.text-pisci a{
+    font-weight:400;
+    font-size: 20px;
+    line-height: 120%;
+    text-decoration:none;
+    color: #008FEF;
+}
+
+.text-pisci h3{
+    font-size: 30px;
+    line-height: 120%;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.text-pisci p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 140%;
+    display: inline-block;
+    margin-left: 300px;
+}
+
+#container {
+    margin-left: 55px;
+    margin-top: 120px;
+}
+
+.box {
+    float: left;
+    width: 271px;
+    height: 373px;
+    margin-left: 38px;
+}
+
+.box img{
+    box-shadow: 10px 25px 25px -25px rgba(80, 64, 128, 0.5);
+    border-radius: 10px;
+}
+
+.box a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+
+    color: #3655B3;
+}
+
+.box p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+#catalogo{
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 402px;
+
+    border: solid #3655B3 2px;
+    border-radius: 8px;
+    width: 270px;
+    height: 47px;
+}
+
+#catalogo img{
+    margin-left: 20px;
+    margin-top: 12px;
+
+    box-shadow: 10px 25px 25px -25px rgba(80, 64, 128, 0.5);
+}
+
+#catalogo a{
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 5px;
+
+
+    color: #3655B3;
+}
+
+/*ATENDIMENTO */
+
+#ATENDIMENTO{
+    margin-top: 100px;
+    height:240px;
+    width: 1920px;
+    background-color: #2B428C;
+
+}
+
+#ATENDIMENTO-whatsapp{
+    margin-left: 26px;
+    margin-bottom: 120px;
+    display: inline-block;
+}
+
+#ATENDIMENTO-texto{
+    display: inline-block;
+    margin-left: 22px;
+
+    position: relative;
+    bottom: 50px;
+}
+
+#ATENDIMENTO-texto h4{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+
+    color: #ffffff;
+}
+
+#ATENDIMENTO-texto p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #B2C6FF;
+
+    margin: 0px;
+    
+}
+
+#ATENDIMENTO-link{
+    background-color: #FC8A33;
+    padding: 20px;
+
+    display: inline-block;
+    border-radius: 5px;
+
+    position: relative;
+    bottom: 119px;
+    left: 257px;
+}
+
+#ATENDIMENTO-link a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+
+    color: #FFFFFF;
+}
+
+/* PÁGINA SOBRE-NÓS */
+
+#SOBRE{
+    margin: 0px 300px;
+    margin-top: 120px;
+}
+
+#SOBRE-texto{
+    display: inline-block;
+}
+
+#SOBRE-texto > a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #005C99;
+}
+
+#SOBRE-texto >h3{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    color: #1F2937;
+}
+
+#SOBRE-texto >p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4F4F4F;
+}
+
+#SOBRE-imagem{
+    float: right;
+
+}
+
+#SOBRE-botao{
+    border: solid #008FEF 1px;
+    padding: 15px 18px;
+    border-radius: 5px;
+
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    color: #3655B3;
+
+    position: relative;
+    top: 60px;
+    display: inline-block;
+}
+
+/*FORMULÁRIO ORÇAMENTO */
+
+#FORMULARIO{
+    margin-top: 145px;
+    height: 912px;
+    background: rgba(179, 198, 255, 0.1);
+    margin-left: auto;
+}
+
+form{
+    position: relative;
+    top: 50px;
+    background-color: #233673;
+    height: 747px;
+    width: 573px;
+    margin-left: auto;
+    margin-right:auto;
+
+    box-shadow: 10px 25px 25px -25px rgba(80, 64, 128, 0.5);
+    border-radius: 10px;
+}
+
+::placeholder{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+    color: #ffffff;
+
+    position: relative;
+    left: 15px;
+}
+
+form h3{
+    padding: 50px 0 0 0;
+    margin-top:50px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+form p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+form label{
+    position:relative;
+    margin-left: 50px;
+}
+
+form input{
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    background-color: #B2C6FF;
+    opacity: 0.3;
+
+}
+
+.info{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+    color: #B3C6FF;
+
+    margin-bottom: 15px;
+}
+
+.submit{
+    background-color:#FC8A33;
+    opacity: 1;
+    color: #F2F2F2;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-decoration: none;
+    border:0px;
+}
+
+.submit:hover{
+    background-color: #CE7028;
+}
+
+/* RODAPÉ DA PÁGINA */
+
+#RODAPE{
+    height: 307px;
+    background-color: #233673;
+}
+
+#RODAPE-info{
+    position: relative;
+    left: 370px;
+    top: 50px;
+    width: 1000px;
+    
+}
+
+#RODAPE p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+
+    color: #FFFFFF;
+}
+
+#RODAPE a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #B3C6FF;
+
+}
+
+.RODAPE-texto{
+    display: inline-block;
+}
+
+.midias-sociais{
+    display: inline-block;
+    position:relative;
+    left: 120px;
+    bottom: 20px;
+}
+
+.midias-sociais a{
+    padding: 20px;
+}
+
+.endereco{
+    display: inline-block;
+}
+
+#logo-agencia{
+    height:65px;
+    background-color: #1F3066;
+
+    text-align: center;
+}
+
+#logo-agencia img{
+    margin-top: 20px;
+}
